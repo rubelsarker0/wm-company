@@ -16,8 +16,94 @@
 </head>
 
 <body>
+    <header class="header-top">
+        <!-- Navigation Bar  -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo/logo-white.svg" alt="" width="80" height="60">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Overview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Components</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Sign up</a>
+                        </li>
+                        <span class=" d-flex align-items-center nav-link text-white">or</span>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Sign in</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-    <h1><i class="fas fa-rocket">WM Company</i></h1>
+    <main>
+        <section class="py-5 bg-dark intro">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-12 col-md-6 col-lg-5 section-title">
+                        <h1 class="text-white">Build a stunning website</h1>
+                        <p class="section-intro text-white">A robust suite of styled components, powered by Bootstrap
+                            4.Ready to take your Website or App up a notch?</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleInputUsername">Username</label>
+                                        <input type="text" class="form-control form-control-lg"
+                                            id="exampleInputUsername" placeholder="Pick a username">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail">Email address</label>
+                                        <input type="email" class="form-control form-control-lg" id="exampleInputEmail"
+                                            placeholder="Enter email">
+                                        <small id="emailHelp" class="form-text">We'll never share your email with anyone
+                                            else.</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword">Password</label>
+                                        <input type="password" class="form-control form-control-lg"
+                                            id="exampleInputPassword" placeholder="Password">
+                                    </div>
+                                    <div class="mb-3">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" value="agree"
+                                                name="agree-terms" id="check-agree">
+                                            <label class="custom-control-label text-small" for="check-agree">I agree to
+                                                the <a href="#">Terms &amp; Conditions</a>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-lg btn-success btn-block">Sign up for
+                                        Wingman</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
 
 
 

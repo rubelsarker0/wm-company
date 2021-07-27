@@ -9,3 +9,9 @@
 body {
 	font-family: 'Rubik', sans-serif;
 }
+
+.intro {
+	background-image: url(../images/logo/graphic-bg-clouds-2.png);
+	background-size: cover;
+	background-attachment: fixed;
+}
